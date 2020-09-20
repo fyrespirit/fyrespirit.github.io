@@ -1,0 +1,23 @@
+@font-face {
+  font-family: poppins-bold;
+  src: url(./fonts/Poppins-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Light.ttf)
+}
+@font-face {
+  font-family: cooperBlack;
+  src: url(cooperBlack.ttf);
+}
+html, body {
+  font-family: poppins;
+  height: 100%;
+  margin: 0px;
+}
+.title {
+  font-size: 50pt;
+  left: 80%;
+  font-family: cooperBlack;
+}
