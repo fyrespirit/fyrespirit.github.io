@@ -1,1 +1,3 @@
-console.log('')
+function openLink(link) {
+    window.open(link)
+}
