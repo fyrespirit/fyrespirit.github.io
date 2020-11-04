@@ -1,23 +1,41 @@
-@font-face {
-  font-family: poppins-bold;
-  src: url(./fonts/Poppins-Bold.ttf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: poppins;
-  src: url(./fonts/Poppins-Light.ttf)
-}
-@font-face {
-  font-family: cooperBlack;
-  src: url(./assets/fonts/cooperBlack.ttf);
-}
 html, body {
-  font-family: poppins;
-  height: 100%;
-  margin: 0px;
+    margin: 0px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    background: linear-gradient(#ff8800,#00ffff);
 }
-.title {
-  font-size: 50pt;
-  left: 80%;
-  font-family: cooperBlack;
+a {
+    color: #fff;
+}
+
+
+#header {
+    background: #404040;
+    padding: 5px;
+}
+#links {       
+    
+}
+
+
+#aboutme {
+    background: ;
+    color: white;
+    padding: 10px;
+}
+
+
+#title {
+    font-size: 80pt;
+    text-align: center;
+    /* 3D Text Gradient */
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    color: #fff !important;
+    cursor: pointer;
+}
+#title-span {
+    color: #bbf;
+    text-shadow: 0px 1px 0px #bb9, 0px 2px 0px #bb8, 0px 3px 0px #bb7, 0px 4px 0px #bb6, 0px 5px 0px #bb5, 0px 6px 0px #bb4, 0px 7px 0px #bb3, 0px 8px 0px #bb2,
 }
